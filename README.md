@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MindScry
 
-## Getting Started
+MindScry is an AI journaling product that turns text or voice reflections into trends, patterns, and correlations — helping people understand how their emotions and behaviour evolve over time.
 
-First, run the development server:
+Live site: [mindscry.vercel.app](https://mindscry.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What it does
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+MindScry helps users turn reflection into something more actionable.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instead of treating journaling as a static archive, MindScry surfaces:
+- emotional trends over time
+- recurring behavioural patterns
+- correlations between journaling and lifestyle data
+- predictive signals that may point to stress spikes, motivation dips, or meaningful habit shifts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal is simple: help people see themselves more clearly.
 
-## Learn More
+## Why MindScry exists
 
-To learn more about Next.js, take a look at the following resources:
+Most journaling tools help users write. Very few help them learn from what they’ve written.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+MindScry is built around the idea that reflection becomes much more valuable when it can reveal patterns, not just store memories. That makes journaling more useful for self-awareness, behaviour change, and long-term personal insight.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Core features
 
-## Deploy on Vercel
+- Trend-based insight generation
+- Automatic detection of recurring themes and patterns
+- Support for text or voice journaling
+- Optional cross-data correlation with sleep, calendar, and habits
+- Predictive tendency analysis
+- Privacy-first product direction
+- Early access signup for founding testers
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Example insights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Sleep < 6.5h + heavy calendar → stress spike after 48h.
+- Week-on-week positivity rising on days with >30 min outdoor time.
+- Recurring Sunday anxiety linked to Monday deadlines.
+
+## How it works
+
+1. Capture  
+   Write or speak journal entries in a guided flow.
+
+2. Analyse  
+   Models extract emotion, themes, and behavioural signals over time.
+
+3. Act  
+   MindScry turns those signals into trendlines, correlations, and simple suggestions grounded in the user’s own data.
+
+## Early access
+
+MindScry uses a Formspree-powered signup form to collect early tester interest and feedback without requiring a backend.
+
+The form asks for:
+- email
+- why they want MindScry
+- journaling frequency
+- feature interest
+
+That helps shape the product with real user signal, not just assumptions.
+
+## Tech stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Formspree for early access capture
+
+## Status
+
+MindScry is in early access and actively evolving.
+
+The current landing page is used to communicate the product vision, collect interest from early testers, and shape the next version of the product based on feedback.
+
+## Privacy
+
+MindScry is being designed with privacy in mind. The longer-term roadmap includes a local-first approach and end-to-end encryption.
+
+## Screenshots
+
+![MindScry landing page preview](./public/Mind_Scry_Landing_page.PNG)
+
+## Contact
+
+Built with care · Early access 2025
